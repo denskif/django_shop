@@ -1,0 +1,2239 @@
+[
+{
+   "model": "contenttypes.contenttype",
+   "pk": 1,
+   "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 2,
+   "fields": {
+      "app_label": "auth",
+      "model": "permission"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 3,
+   "fields": {
+      "app_label": "auth",
+      "model": "group"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 4,
+   "fields": {
+      "app_label": "auth",
+      "model": "user"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 5,
+   "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 6,
+   "fields": {
+      "app_label": "sessions",
+      "model": "session"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 7,
+   "fields": {
+      "app_label": "landing",
+      "model": "subscriber"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 8,
+   "fields": {
+      "app_label": "orders",
+      "model": "order"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 9,
+   "fields": {
+      "app_label": "orders",
+      "model": "productinorder"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 10,
+   "fields": {
+      "app_label": "orders",
+      "model": "status"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 11,
+   "fields": {
+      "app_label": "products",
+      "model": "productimage"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 12,
+   "fields": {
+      "app_label": "products",
+      "model": "product"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 13,
+   "fields": {
+      "app_label": "products",
+      "model": "productcategory"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 14,
+   "fields": {
+      "app_label": "orders",
+      "model": "productinbasket"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "69gbzufkg0vxw965i5q9ccsa4zi1v8lr",
+   "fields": {
+      "session_data": "ZTIzZTAyOTgxMzUwZmEyOWIxODM3ZDcxZmJmODY1OWI1ODQ4NDBkZTp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzZGYxMWI1NmFhMmJkMmFjNGZiNTg1OWI0ZmFjYmYwYzc3NzllMDg4In0=",
+      "expire_date": "2018-07-20T17:25:31.146Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "7dizovy4d3hrm7so1a4cg6r1rezlrhhz",
+   "fields": {
+      "session_data": "NWZkZmMzNTBkYjg2MjUxYjRjNGM0YzQwNGM3ZjEzZTlhNTY2MjM5NTp7fQ==",
+      "expire_date": "2018-07-18T16:31:52.134Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "99h9gajfq7p5uz56zhvr467gfwafpyuz",
+   "fields": {
+      "session_data": "NWZkZmMzNTBkYjg2MjUxYjRjNGM0YzQwNGM3ZjEzZTlhNTY2MjM5NTp7fQ==",
+      "expire_date": "2018-08-08T17:14:53.825Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "fbky79w859prpaf8d2y78lji6h8o4mmw",
+   "fields": {
+      "session_data": "ZjE4ODg2MWE4OTVlN2NhMGZiNjhiNTU4OTYzODNmYzEyYjZkNTljMDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2YzgzMzRlY2E5MmE0ZDAzNjIyZTYzYzIxMDA3NWZiODkwZjAxNzRhIn0=",
+      "expire_date": "2018-05-25T16:54:34.336Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "tqwu8mmqqerkqqaryyvnzjb2fj3cubr9",
+   "fields": {
+      "session_data": "ZjE4ODg2MWE4OTVlN2NhMGZiNjhiNTU4OTYzODNmYzEyYjZkNTljMDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2YzgzMzRlY2E5MmE0ZDAzNjIyZTYzYzIxMDA3NWZiODkwZjAxNzRhIn0=",
+      "expire_date": "2018-08-21T19:18:38.238Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "vrnvm3nqvlov3v3oooifebry78oisjjy",
+   "fields": {
+      "session_data": "ZTIzZTAyOTgxMzUwZmEyOWIxODM3ZDcxZmJmODY1OWI1ODQ4NDBkZTp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzZGYxMWI1NmFhMmJkMmFjNGZiNTg1OWI0ZmFjYmYwYzc3NzllMDg4In0=",
+      "expire_date": "2018-06-08T17:18:51.756Z"
+   }
+},
+{
+   "model": "landing.subscriber",
+   "pk": 1,
+   "fields": {
+      "email": "den@com.ua",
+      "name": "Den"
+   }
+},
+{
+   "model": "landing.subscriber",
+   "pk": 2,
+   "fields": {
+      "email": "den@com.ua",
+      "name": "Den"
+   }
+},
+{
+   "model": "landing.subscriber",
+   "pk": 3,
+   "fields": {
+      "email": "den@com.ua",
+      "name": "Den"
+   }
+},
+{
+   "model": "landing.subscriber",
+   "pk": 4,
+   "fields": {
+      "email": "asdads@com.ua",
+      "name": "12345"
+   }
+},
+{
+   "model": "landing.subscriber",
+   "pk": 5,
+   "fields": {
+      "email": "asdads@com.ua",
+      "name": "12345"
+   }
+},
+{
+   "model": "landing.subscriber",
+   "pk": 6,
+   "fields": {
+      "email": "com@com.ua",
+      "name": "test"
+   }
+},
+{
+   "model": "landing.subscriber",
+   "pk": 7,
+   "fields": {
+      "email": "com@com.ua",
+      "name": "test"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 1,
+   "fields": {
+      "name": "New",
+      "is_active": true,
+      "created": "2018-05-25T16:47:11.342Z",
+      "updated": "2018-05-25T16:47:11.342Z"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 2,
+   "fields": {
+      "name": "In Progress",
+      "is_active": true,
+      "created": "2018-05-25T16:47:18.785Z",
+      "updated": "2018-05-25T16:47:18.785Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 1,
+   "fields": {
+      "order": 1,
+      "product": 1,
+      "quantity": 1,
+      "price_per_item": "0.00",
+      "total_price": "0.00",
+      "is_active": true,
+      "created": "2018-05-25T16:49:16.799Z",
+      "updated": "2018-05-25T16:49:16.799Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 2,
+   "fields": {
+      "order": 3,
+      "product": 1,
+      "quantity": 2,
+      "price_per_item": "0.00",
+      "total_price": "0.00",
+      "is_active": true,
+      "created": "2018-05-26T09:31:15.254Z",
+      "updated": "2018-05-26T09:31:15.254Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 3,
+   "fields": {
+      "order": 4,
+      "product": 1,
+      "quantity": 2,
+      "price_per_item": "100.05",
+      "total_price": "200.10",
+      "is_active": true,
+      "created": "2018-05-26T09:32:48.879Z",
+      "updated": "2018-05-26T09:32:48.880Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 4,
+   "fields": {
+      "order": 5,
+      "product": 1,
+      "quantity": 3,
+      "price_per_item": "100.05",
+      "total_price": "300.15",
+      "is_active": true,
+      "created": "2018-05-26T09:44:28.298Z",
+      "updated": "2018-05-26T09:44:28.298Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 5,
+   "fields": {
+      "order": 5,
+      "product": 1,
+      "quantity": 1,
+      "price_per_item": "110.05",
+      "total_price": "110.05",
+      "is_active": true,
+      "created": "2018-05-26T09:45:46.412Z",
+      "updated": "2018-05-26T09:45:46.412Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 6,
+   "fields": {
+      "order": 7,
+      "product": 1,
+      "quantity": 4,
+      "price_per_item": "110.05",
+      "total_price": "440.20",
+      "is_active": true,
+      "created": "2018-08-07T19:32:08.112Z",
+      "updated": "2018-08-07T19:32:08.112Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 7,
+   "fields": {
+      "order": 7,
+      "product": 8,
+      "quantity": 3,
+      "price_per_item": "50002.00",
+      "total_price": "150006.00",
+      "is_active": true,
+      "created": "2018-08-07T19:32:08.466Z",
+      "updated": "2018-08-07T19:32:08.466Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 8,
+   "fields": {
+      "order": 8,
+      "product": 8,
+      "quantity": 2,
+      "price_per_item": "50002.00",
+      "total_price": "100004.00",
+      "is_active": true,
+      "created": "2018-08-08T18:08:13.890Z",
+      "updated": "2018-08-08T18:08:13.891Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 9,
+   "fields": {
+      "order": 8,
+      "product": 1,
+      "quantity": 1,
+      "price_per_item": "110.05",
+      "total_price": "110.05",
+      "is_active": true,
+      "created": "2018-08-08T18:08:14.256Z",
+      "updated": "2018-08-08T18:08:14.257Z"
+   }
+},
+{
+   "model": "orders.productinbasket",
+   "pk": 32,
+   "fields": {
+      "session_key": "tqwu8mmqqerkqqaryyvnzjb2fj3cubr9",
+      "order": 8,
+      "product": 8,
+      "quantity": 2,
+      "price_per_item": "50002.00",
+      "total_price": "100004.00",
+      "is_active": true,
+      "created": "2018-08-08T18:07:11.330Z",
+      "updated": "2018-08-08T18:08:13.649Z"
+   }
+},
+{
+   "model": "orders.productinbasket",
+   "pk": 33,
+   "fields": {
+      "session_key": "tqwu8mmqqerkqqaryyvnzjb2fj3cubr9",
+      "order": 8,
+      "product": 1,
+      "quantity": 1,
+      "price_per_item": "110.05",
+      "total_price": "110.05",
+      "is_active": true,
+      "created": "2018-08-08T18:07:21.961Z",
+      "updated": "2018-08-08T18:08:14.070Z"
+   }
+},
+{
+   "model": "products.productcategory",
+   "pk": 1,
+   "fields": {
+      "name": "Phone",
+      "is_active": true
+   }
+},
+{
+   "model": "products.productcategory",
+   "pk": 2,
+   "fields": {
+      "name": "IPhone",
+      "is_active": true
+   }
+},
+{
+   "model": "products.product",
+   "pk": 1,
+   "fields": {
+      "name": "Iphone",
+      "price": "110.05",
+      "discount": 0,
+      "category": 1,
+      "short_description": "",
+      "description": "\u0420\u0430\u0434\u0438\u043a\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u0435\u0440\u0435\u043e\u0441\u043c\u044b\u0441\u043b\u0435\u043d\u0438\u0435 \u2014 \u0432\u043e\u0442 \u0442\u0430\u043a \u0432 \u0434\u0432\u0443\u0445 \u0441\u043b\u043e\u0432\u0430\u0445 \u043c\u043e\u0436\u043d\u043e \u043e\u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0437\u043e\u0432\u0430\u0442\u044c \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b Apple \u043e\u0431\u0440\u0430\u0437\u0446\u0430 2016 \u0433\u043e\u0434\u0430. \u041f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, \u043e\u0431\u0435 \u043a\u0430\u043c\u0435\u0440\u044b, \u044d\u043a\u0440\u0430\u043d, \u0430\u0443\u0434\u0438\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u0430, \u0434\u0430\u0436\u0435 \u043a\u043d\u043e\u043f\u043a\u0430 \u00ab\u0414\u043e\u043c\u043e\u0439\u00bb \u2014 \u0432\u0441\u0435 \u043f\u0440\u0435\u0442\u0435\u0440\u043f\u0435\u043b\u043e \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f, \u0441 \u044e\u0432\u0435\u043b\u0438\u0440\u043d\u043e\u0439 \u0442\u043e\u0447\u043d\u043e\u0441\u0442\u044c\u044e \u0443\u043c\u0435\u0441\u0442\u0438\u0432\u0448\u0438\u0441\u044c \u0432 \u043d\u043e\u0432\u043e\u043c \u0432\u043e\u0434\u043e\u043d\u0435\u043f\u0440\u043e\u043d\u0438\u0446\u0430\u0435\u043c\u043e\u043c \u043a\u043e\u0440\u043f\u0443\u0441\u0435.",
+      "is_active": true,
+      "created": "2018-05-25T16:27:54.437Z",
+      "updated": "2018-05-31T20:51:55.024Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 2,
+   "fields": {
+      "name": "MacBook Pro",
+      "price": "32000.00",
+      "discount": 0,
+      "category": 1,
+      "short_description": "",
+      "description": "\u0420\u0430\u0434\u0438\u043a\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u0435\u0440\u0435\u043e\u0441\u043c\u044b\u0441\u043b\u0435\u043d\u0438\u0435 \u2014 \u0432\u043e\u0442 \u0442\u0430\u043a \u0432 \u0434\u0432\u0443\u0445 \u0441\u043b\u043e\u0432\u0430\u0445 \u043c\u043e\u0436\u043d\u043e \u043e\u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0437\u043e\u0432\u0430\u0442\u044c \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b Apple \u043e\u0431\u0440\u0430\u0437\u0446\u0430 2016 \u0433\u043e\u0434\u0430. \u041f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, \u043e\u0431\u0435 \u043a\u0430\u043c\u0435\u0440\u044b, \u044d\u043a\u0440\u0430\u043d, \u0430\u0443\u0434\u0438\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u0430, \u0434\u0430\u0436\u0435 \u043a\u043d\u043e\u043f\u043a\u0430 \u00ab\u0414\u043e\u043c\u043e\u0439\u00bb \u2014 \u0432\u0441\u0435 \u043f\u0440\u0435\u0442\u0435\u0440\u043f\u0435\u043b\u043e \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f, \u0441 \u044e\u0432\u0435\u043b\u0438\u0440\u043d\u043e\u0439 \u0442\u043e\u0447\u043d\u043e\u0441\u0442\u044c\u044e \u0443\u043c\u0435\u0441\u0442\u0438\u0432\u0448\u0438\u0441\u044c \u0432 \u043d\u043e\u0432\u043e\u043c \u0432\u043e\u0434\u043e\u043d\u0435\u043f\u0440\u043e\u043d\u0438\u0446\u0430\u0435\u043c\u043e\u043c \u043a\u043e\u0440\u043f\u0443\u0441\u0435.",
+      "is_active": true,
+      "created": "2018-05-26T17:11:41.630Z",
+      "updated": "2018-05-31T20:15:06.112Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 3,
+   "fields": {
+      "name": "Ipod Pro",
+      "price": "1600.00",
+      "discount": 0,
+      "category": 1,
+      "short_description": "",
+      "description": "\u0420\u0430\u0434\u0438\u043a\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u0435\u0440\u0435\u043e\u0441\u043c\u044b\u0441\u043b\u0435\u043d\u0438\u0435 \u2014 \u0432\u043e\u0442 \u0442\u0430\u043a \u0432 \u0434\u0432\u0443\u0445 \u0441\u043b\u043e\u0432\u0430\u0445 \u043c\u043e\u0436\u043d\u043e \u043e\u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0437\u043e\u0432\u0430\u0442\u044c \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b Apple \u043e\u0431\u0440\u0430\u0437\u0446\u0430 2016 \u0433\u043e\u0434\u0430. \u041f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, \u043e\u0431\u0435 \u043a\u0430\u043c\u0435\u0440\u044b, \u044d\u043a\u0440\u0430\u043d, \u0430\u0443\u0434\u0438\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u0430, \u0434\u0430\u0436\u0435 \u043a\u043d\u043e\u043f\u043a\u0430 \u00ab\u0414\u043e\u043c\u043e\u0439\u00bb \u2014 \u0432\u0441\u0435 \u043f\u0440\u0435\u0442\u0435\u0440\u043f\u0435\u043b\u043e \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f, \u0441 \u044e\u0432\u0435\u043b\u0438\u0440\u043d\u043e\u0439 \u0442\u043e\u0447\u043d\u043e\u0441\u0442\u044c\u044e \u0443\u043c\u0435\u0441\u0442\u0438\u0432\u0448\u0438\u0441\u044c \u0432 \u043d\u043e\u0432\u043e\u043c \u0432\u043e\u0434\u043e\u043d\u0435\u043f\u0440\u043e\u043d\u0438\u0446\u0430\u0435\u043c\u043e\u043c \u043a\u043e\u0440\u043f\u0443\u0441\u0435.",
+      "is_active": true,
+      "created": "2018-05-26T17:11:55.853Z",
+      "updated": "2018-05-31T20:14:58.857Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 4,
+   "fields": {
+      "name": "Iphone Camera",
+      "price": "20000.00",
+      "discount": 0,
+      "category": 1,
+      "short_description": "",
+      "description": "\u0420\u0430\u0434\u0438\u043a\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u0435\u0440\u0435\u043e\u0441\u043c\u044b\u0441\u043b\u0435\u043d\u0438\u0435 \u2014 \u0432\u043e\u0442 \u0442\u0430\u043a \u0432 \u0434\u0432\u0443\u0445 \u0441\u043b\u043e\u0432\u0430\u0445 \u043c\u043e\u0436\u043d\u043e \u043e\u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0437\u043e\u0432\u0430\u0442\u044c \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b Apple \u043e\u0431\u0440\u0430\u0437\u0446\u0430 2016 \u0433\u043e\u0434\u0430. \u041f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, \u043e\u0431\u0435 \u043a\u0430\u043c\u0435\u0440\u044b, \u044d\u043a\u0440\u0430\u043d, \u0430\u0443\u0434\u0438\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u0430, \u0434\u0430\u0436\u0435 \u043a\u043d\u043e\u043f\u043a\u0430 \u00ab\u0414\u043e\u043c\u043e\u0439\u00bb \u2014 \u0432\u0441\u0435 \u043f\u0440\u0435\u0442\u0435\u0440\u043f\u0435\u043b\u043e \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f, \u0441 \u044e\u0432\u0435\u043b\u0438\u0440\u043d\u043e\u0439 \u0442\u043e\u0447\u043d\u043e\u0441\u0442\u044c\u044e \u0443\u043c\u0435\u0441\u0442\u0438\u0432\u0448\u0438\u0441\u044c \u0432 \u043d\u043e\u0432\u043e\u043c \u0432\u043e\u0434\u043e\u043d\u0435\u043f\u0440\u043e\u043d\u0438\u0446\u0430\u0435\u043c\u043e\u043c \u043a\u043e\u0440\u043f\u0443\u0441\u0435.",
+      "is_active": true,
+      "created": "2018-05-26T17:12:10.717Z",
+      "updated": "2018-05-31T20:14:51.821Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 5,
+   "fields": {
+      "name": "Laptop1",
+      "price": "15000.00",
+      "discount": 0,
+      "category": 2,
+      "short_description": "\u041d\u043e\u0443\u0442\u0431\u0443\u043a (\u0430\u043d\u0433\u043b. notebook \u2014 \u0431\u043b\u043e\u043a\u043d\u043e\u0442, \u043f\u043e\u0440\u0442\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u041f\u041a) \u2014 \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043d\u043e\u0439 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440, \u0432 \u043a\u043e\u0440\u043f\u0443\u0441\u0435 \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u044b \u0442\u0438\u043f\u0438\u0447\u043d\u044b\u0435 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b \u041f\u041a, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u0434\u0438\u0441\u043f\u043b\u0435\u0439, \u043a\u043b\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0443 \u0438 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u0443\u043a\u0430\u0437\u0430\u043d\u0438\u044f (\u043e\u0431\u044b\u0447\u043d\u043e \u0441\u0435\u043d\u0441\u043e\u0440\u043d\u0430\u044f \u043f\u0430\u043d\u0435\u043b\u044c \u0438\u043b\u0438 \u0442\u0430\u0447\u043f\u0430\u0434), \u0430 \u0442\u0430\u043a\u0436\u0435 \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u043d\u044b\u0435 \u0431\u0430\u0442\u0430\u0440\u0435\u0438.",
+      "description": "\u041d\u043e\u0443\u0442\u0431\u0443\u043a (\u0430\u043d\u0433\u043b. notebook \u2014 \u0431\u043b\u043e\u043a\u043d\u043e\u0442, \u043f\u043e\u0440\u0442\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u041f\u041a) \u2014 \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043d\u043e\u0439 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440, \u0432 \u043a\u043e\u0440\u043f\u0443\u0441\u0435 \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u044b \u0442\u0438\u043f\u0438\u0447\u043d\u044b\u0435 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b \u041f\u041a, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u0434\u0438\u0441\u043f\u043b\u0435\u0439, \u043a\u043b\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0443 \u0438 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u0443\u043a\u0430\u0437\u0430\u043d\u0438\u044f (\u043e\u0431\u044b\u0447\u043d\u043e \u0441\u0435\u043d\u0441\u043e\u0440\u043d\u0430\u044f \u043f\u0430\u043d\u0435\u043b\u044c \u0438\u043b\u0438 \u0442\u0430\u0447\u043f\u0430\u0434), \u0430 \u0442\u0430\u043a\u0436\u0435 \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u043d\u044b\u0435 \u0431\u0430\u0442\u0430\u0440\u0435\u0438.",
+      "is_active": true,
+      "created": "2018-05-30T18:12:56.849Z",
+      "updated": "2018-05-31T20:28:35.959Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 6,
+   "fields": {
+      "name": "Laptop2",
+      "price": "2000.00",
+      "discount": 0,
+      "category": 2,
+      "short_description": "\u041d\u043e\u0443\u0442\u0431\u0443\u043a (\u0430\u043d\u0433\u043b. notebook \u2014 \u0431\u043b\u043e\u043a\u043d\u043e\u0442, \u043f\u043e\u0440\u0442\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u041f\u041a) \u2014 \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043d\u043e\u0439 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440, \u0432 \u043a\u043e\u0440\u043f\u0443\u0441\u0435 \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u044b \u0442\u0438\u043f\u0438\u0447\u043d\u044b\u0435 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b \u041f\u041a",
+      "description": "\u041d\u043e\u0443\u0442\u0431\u0443\u043a (\u0430\u043d\u0433\u043b. notebook \u2014 \u0431\u043b\u043e\u043a\u043d\u043e\u0442, \u043f\u043e\u0440\u0442\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u041f\u041a) \u2014 \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043d\u043e\u0439 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440, \u0432 \u043a\u043e\u0440\u043f\u0443\u0441\u0435 \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u044b \u0442\u0438\u043f\u0438\u0447\u043d\u044b\u0435 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b \u041f\u041a, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u0434\u0438\u0441\u043f\u043b\u0435\u0439, \u043a\u043b\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0443 \u0438 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u0443\u043a\u0430\u0437\u0430\u043d\u0438\u044f (\u043e\u0431\u044b\u0447\u043d\u043e \u0441\u0435\u043d\u0441\u043e\u0440\u043d\u0430\u044f \u043f\u0430\u043d\u0435\u043b\u044c \u0438\u043b\u0438 \u0442\u0430\u0447\u043f\u0430\u0434), \u0430 \u0442\u0430\u043a\u0436\u0435 \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u043d\u044b\u0435 \u0431\u0430\u0442\u0430\u0440\u0435\u0438.",
+      "is_active": true,
+      "created": "2018-05-30T18:13:24.386Z",
+      "updated": "2018-05-31T20:14:37.274Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 7,
+   "fields": {
+      "name": "Laptop3",
+      "price": "12008.00",
+      "discount": 0,
+      "category": 2,
+      "short_description": "\u041d\u043e\u0443\u0442\u0431\u0443\u043a (\u0430\u043d\u0433\u043b. notebook \u2014 \u0431\u043b\u043e\u043a\u043d\u043e\u0442, \u043f\u043e\u0440\u0442\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u041f\u041a) \u2014 \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043d\u043e\u0439 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440, \u0432 \u043a\u043e\u0440\u043f\u0443\u0441\u0435 \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u044b \u0442\u0438\u043f\u0438\u0447\u043d\u044b\u0435 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b \u041f\u041a,",
+      "description": "\u041d\u043e\u0443\u0442\u0431\u0443\u043a (\u0430\u043d\u0433\u043b. notebook \u2014 \u0431\u043b\u043e\u043a\u043d\u043e\u0442, \u043f\u043e\u0440\u0442\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u041f\u041a) \u2014 \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043d\u043e\u0439 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440, \u0432 \u043a\u043e\u0440\u043f\u0443\u0441\u0435 \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u044b \u0442\u0438\u043f\u0438\u0447\u043d\u044b\u0435 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b \u041f\u041a, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u0434\u0438\u0441\u043f\u043b\u0435\u0439, \u043a\u043b\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0443 \u0438 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u0443\u043a\u0430\u0437\u0430\u043d\u0438\u044f (\u043e\u0431\u044b\u0447\u043d\u043e \u0441\u0435\u043d\u0441\u043e\u0440\u043d\u0430\u044f \u043f\u0430\u043d\u0435\u043b\u044c \u0438\u043b\u0438 \u0442\u0430\u0447\u043f\u0430\u0434), \u0430 \u0442\u0430\u043a\u0436\u0435 \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u043d\u044b\u0435 \u0431\u0430\u0442\u0430\u0440\u0435\u0438.",
+      "is_active": true,
+      "created": "2018-05-30T18:13:52.311Z",
+      "updated": "2018-05-31T20:14:30.155Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 8,
+   "fields": {
+      "name": "Laptop4",
+      "price": "50002.00",
+      "discount": 10,
+      "category": 2,
+      "short_description": "\u041d\u043e\u0443\u0442\u0431\u0443\u043a (\u0430\u043d\u0433\u043b. notebook \u2014 \u0431\u043b\u043e\u043a\u043d\u043e\u0442, \u043f\u043e\u0440\u0442\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u041f\u041a) \u2014 \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043d\u043e\u0439 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440, \u0432 \u043a\u043e\u0440\u043f\u0443\u0441\u0435 \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u044b",
+      "description": "\u041d\u043e\u0443\u0442\u0431\u0443\u043a (\u0430\u043d\u0433\u043b. notebook \u2014 \u0431\u043b\u043e\u043a\u043d\u043e\u0442, \u043f\u043e\u0440\u0442\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u041f\u041a) \u2014 \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043d\u043e\u0439 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440, \u0432 \u043a\u043e\u0440\u043f\u0443\u0441\u0435 \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u044b \u0442\u0438\u043f\u0438\u0447\u043d\u044b\u0435 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b \u041f\u041a, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u0434\u0438\u0441\u043f\u043b\u0435\u0439, \u043a\u043b\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0443 \u0438 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u0443\u043a\u0430\u0437\u0430\u043d\u0438\u044f (\u043e\u0431\u044b\u0447\u043d\u043e \u0441\u0435\u043d\u0441\u043e\u0440\u043d\u0430\u044f \u043f\u0430\u043d\u0435\u043b\u044c \u0438\u043b\u0438 \u0442\u0430\u0447\u043f\u0430\u0434), \u0430 \u0442\u0430\u043a\u0436\u0435 \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u043d\u044b\u0435 \u0431\u0430\u0442\u0430\u0440\u0435\u0438.",
+      "is_active": true,
+      "created": "2018-05-30T18:14:13.070Z",
+      "updated": "2018-05-31T20:49:37.988Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 3,
+   "fields": {
+      "product": 1,
+      "image": "D:/PyCharm/project_django/static/media/product_images/iphone1.jpg",
+      "is_active": true,
+      "is_main": false,
+      "created": "2018-05-25T16:44:11.290Z",
+      "updated": "2018-05-31T20:51:55.029Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 4,
+   "fields": {
+      "product": 1,
+      "image": "D:/PyCharm/project_django/static/media/product_images/iphone2.jpg",
+      "is_active": true,
+      "is_main": true,
+      "created": "2018-05-25T16:44:29.167Z",
+      "updated": "2018-05-25T16:44:29.168Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 5,
+   "fields": {
+      "product": 3,
+      "image": "D:/PyCharm/project_django/static/media/product_images/iphone1_QCQIQrP.jpg",
+      "is_active": true,
+      "is_main": false,
+      "created": "2018-05-26T17:48:08.016Z",
+      "updated": "2018-05-31T20:51:08.500Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 6,
+   "fields": {
+      "product": 4,
+      "image": "D:/PyCharm/project_django/static/media/product_images/iphone2_fEZZLdF.jpg",
+      "is_active": true,
+      "is_main": true,
+      "created": "2018-05-26T17:48:22.261Z",
+      "updated": "2018-05-26T17:48:22.261Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 11,
+   "fields": {
+      "product": 5,
+      "image": "D:/PyCharm/project_django/static/media/product_images/iphone1_l8B4Iby.jpg",
+      "is_active": true,
+      "is_main": true,
+      "created": "2018-05-31T20:28:36.028Z",
+      "updated": "2018-05-31T20:28:36.028Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 12,
+   "fields": {
+      "product": 8,
+      "image": "D:/PyCharm/project_django/static/media/product_images/iphone1_CuPeOqT.jpg",
+      "is_active": true,
+      "is_main": true,
+      "created": "2018-05-31T20:49:38.009Z",
+      "updated": "2018-05-31T20:49:38.009Z"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 1,
+   "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 2,
+   "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 3,
+   "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 4,
+   "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 5,
+   "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 6,
+   "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 7,
+   "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 8,
+   "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 9,
+   "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 10,
+   "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 11,
+   "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 12,
+   "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 13,
+   "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 14,
+   "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 15,
+   "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 16,
+   "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 17,
+   "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 18,
+   "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 19,
+   "fields": {
+      "name": "Can add subscribers",
+      "content_type": 7,
+      "codename": "add_subscribers"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 20,
+   "fields": {
+      "name": "Can change subscribers",
+      "content_type": 7,
+      "codename": "change_subscribers"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 21,
+   "fields": {
+      "name": "Can delete subscribers",
+      "content_type": 7,
+      "codename": "delete_subscribers"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 22,
+   "fields": {
+      "name": "Can add subscriber",
+      "content_type": 7,
+      "codename": "add_subscriber"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 23,
+   "fields": {
+      "name": "Can change subscriber",
+      "content_type": 7,
+      "codename": "change_subscriber"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 24,
+   "fields": {
+      "name": "Can delete subscriber",
+      "content_type": 7,
+      "codename": "delete_subscriber"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 25,
+   "fields": {
+      "name": "Can add \u0417\u0430\u043a\u0430\u0437",
+      "content_type": 8,
+      "codename": "add_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 26,
+   "fields": {
+      "name": "Can change \u0417\u0430\u043a\u0430\u0437",
+      "content_type": 8,
+      "codename": "change_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 27,
+   "fields": {
+      "name": "Can delete \u0417\u0430\u043a\u0430\u0437",
+      "content_type": 8,
+      "codename": "delete_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 28,
+   "fields": {
+      "name": "Can add \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 9,
+      "codename": "add_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 29,
+   "fields": {
+      "name": "Can change \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 9,
+      "codename": "change_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 30,
+   "fields": {
+      "name": "Can delete \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 9,
+      "codename": "delete_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 31,
+   "fields": {
+      "name": "Can add \u0421\u0442\u0430\u0442\u0443\u0441 \u0437\u0430\u043a\u0430\u0437\u0430",
+      "content_type": 10,
+      "codename": "add_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 32,
+   "fields": {
+      "name": "Can change \u0421\u0442\u0430\u0442\u0443\u0441 \u0437\u0430\u043a\u0430\u0437\u0430",
+      "content_type": 10,
+      "codename": "change_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 33,
+   "fields": {
+      "name": "Can delete \u0421\u0442\u0430\u0442\u0443\u0441 \u0437\u0430\u043a\u0430\u0437\u0430",
+      "content_type": 10,
+      "codename": "delete_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 34,
+   "fields": {
+      "name": "Can add \u0424\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+      "content_type": 11,
+      "codename": "add_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 35,
+   "fields": {
+      "name": "Can change \u0424\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+      "content_type": 11,
+      "codename": "change_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 36,
+   "fields": {
+      "name": "Can delete \u0424\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+      "content_type": 11,
+      "codename": "delete_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 37,
+   "fields": {
+      "name": "Can add \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 12,
+      "codename": "add_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 38,
+   "fields": {
+      "name": "Can change \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 12,
+      "codename": "change_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 39,
+   "fields": {
+      "name": "Can delete \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 12,
+      "codename": "delete_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 40,
+   "fields": {
+      "name": "Can add \u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0422\u043e\u0432\u0430\u0440\u0430",
+      "content_type": 13,
+      "codename": "add_productcategory"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 41,
+   "fields": {
+      "name": "Can change \u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0422\u043e\u0432\u0430\u0440\u0430",
+      "content_type": 13,
+      "codename": "change_productcategory"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 42,
+   "fields": {
+      "name": "Can delete \u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0422\u043e\u0432\u0430\u0440\u0430",
+      "content_type": 13,
+      "codename": "delete_productcategory"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 43,
+   "fields": {
+      "name": "Can add \u0422\u043e\u0432\u0430\u0440 \u0432 \u043a\u043e\u0440\u0437\u0438\u043d\u0435",
+      "content_type": 14,
+      "codename": "add_productinbasket"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 44,
+   "fields": {
+      "name": "Can change \u0422\u043e\u0432\u0430\u0440 \u0432 \u043a\u043e\u0440\u0437\u0438\u043d\u0435",
+      "content_type": 14,
+      "codename": "change_productinbasket"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 45,
+   "fields": {
+      "name": "Can delete \u0422\u043e\u0432\u0430\u0440 \u0432 \u043a\u043e\u0440\u0437\u0438\u043d\u0435",
+      "content_type": 14,
+      "codename": "delete_productinbasket"
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 1,
+   "fields": {
+      "password": "pbkdf2_sha256$100000$MAAUZQK8ZID9$MxXU8B9WTth76koM1LnQyvUy4M3b3f+N3gA6nbYXNS0=",
+      "last_login": "2018-08-07T19:18:38.144Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "dencross.91.91@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2018-05-11T16:54:12.401Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 2,
+   "fields": {
+      "password": "pbkdf2_sha256$100000$Y7jnQLkGHEXX$ZO2rR0MnYID+XY46vfQgQZrRHQUCriesPuO0f0ESiBs=",
+      "last_login": "2018-07-06T17:25:31.065Z",
+      "is_superuser": true,
+      "username": "denskif",
+      "first_name": "",
+      "last_name": "",
+      "email": "denskif.91.91@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2018-05-25T17:18:36.007Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 3,
+   "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "asdafsdf",
+      "first_name": "assdgsdf",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2018-08-07T18:39:37.200Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 4,
+   "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "123456",
+      "first_name": "Test name",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2018-08-07T19:29:06.039Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 5,
+   "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "654321",
+      "first_name": "Test name 2",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2018-08-08T18:08:13.452Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 1,
+   "fields": {
+      "user": null,
+      "total_price": "0.00",
+      "customer_name": "SomeClient",
+      "customer_email": null,
+      "customer_phone": "1234",
+      "customer_address": null,
+      "status": 1,
+      "comments": "Some Comment",
+      "created": "2018-05-25T16:48:54.660Z",
+      "updated": "2018-05-25T16:48:54.660Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 2,
+   "fields": {
+      "user": null,
+      "total_price": "0.00",
+      "customer_name": null,
+      "customer_email": null,
+      "customer_phone": null,
+      "customer_address": null,
+      "status": 1,
+      "comments": "",
+      "created": "2018-05-26T09:27:42.741Z",
+      "updated": "2018-05-26T09:27:42.741Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 3,
+   "fields": {
+      "user": null,
+      "total_price": "0.00",
+      "customer_name": null,
+      "customer_email": null,
+      "customer_phone": null,
+      "customer_address": null,
+      "status": 1,
+      "comments": "",
+      "created": "2018-05-26T09:31:15.245Z",
+      "updated": "2018-05-26T09:31:58.862Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 4,
+   "fields": {
+      "user": null,
+      "total_price": "0.00",
+      "customer_name": null,
+      "customer_email": null,
+      "customer_phone": null,
+      "customer_address": null,
+      "status": 1,
+      "comments": "",
+      "created": "2018-05-26T09:32:48.869Z",
+      "updated": "2018-05-26T09:32:48.877Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 5,
+   "fields": {
+      "user": null,
+      "total_price": "410.20",
+      "customer_name": null,
+      "customer_email": null,
+      "customer_phone": null,
+      "customer_address": null,
+      "status": 1,
+      "comments": "",
+      "created": "2018-05-26T09:44:28.288Z",
+      "updated": "2018-05-26T09:45:46.418Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 6,
+   "fields": {
+      "user": 4,
+      "total_price": "0.00",
+      "customer_name": "Test name",
+      "customer_email": null,
+      "customer_phone": "123456",
+      "customer_address": null,
+      "status": 1,
+      "comments": null,
+      "created": "2018-08-07T19:29:27.115Z",
+      "updated": "2018-08-07T19:29:27.363Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 7,
+   "fields": {
+      "user": 4,
+      "total_price": "150446.20",
+      "customer_name": "Test name",
+      "customer_email": null,
+      "customer_phone": "123456",
+      "customer_address": null,
+      "status": 1,
+      "comments": null,
+      "created": "2018-08-07T19:32:07.799Z",
+      "updated": "2018-08-07T19:32:08.545Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 8,
+   "fields": {
+      "user": 5,
+      "total_price": "100114.05",
+      "customer_name": "Test name 2",
+      "customer_email": null,
+      "customer_phone": "654321",
+      "customer_address": null,
+      "status": 1,
+      "comments": null,
+      "created": "2018-08-08T18:08:13.552Z",
+      "updated": "2018-08-08T18:08:14.370Z"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 1,
+   "fields": {
+      "action_time": "2018-05-25T16:27:54.475Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 2,
+   "fields": {
+      "action_time": "2018-05-25T16:33:50.063Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 3,
+   "fields": {
+      "action_time": "2018-05-25T16:35:25.832Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 4,
+   "fields": {
+      "action_time": "2018-05-25T16:44:02.719Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 5,
+   "fields": {
+      "action_time": "2018-05-25T16:44:02.820Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 6,
+   "fields": {
+      "action_time": "2018-05-25T16:44:11.297Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 7,
+   "fields": {
+      "action_time": "2018-05-25T16:44:29.171Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "4",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 8,
+   "fields": {
+      "action_time": "2018-05-25T16:47:11.345Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "\u0421\u0442\u0430\u0442\u0443\u0441 New",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 9,
+   "fields": {
+      "action_time": "2018-05-25T16:47:18.788Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "\u0421\u0442\u0430\u0442\u0443\u0441 In Progress",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 10,
+   "fields": {
+      "action_time": "2018-05-25T16:48:54.664Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 1 New",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 11,
+   "fields": {
+      "action_time": "2018-05-25T16:49:16.812Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Iphone",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 12,
+   "fields": {
+      "action_time": "2018-05-26T09:27:42.746Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 2 New",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 13,
+   "fields": {
+      "action_time": "2018-05-26T09:31:15.258Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 3 New",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"Iphone\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 14,
+   "fields": {
+      "action_time": "2018-05-26T09:31:24.611Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 3 New",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 15,
+   "fields": {
+      "action_time": "2018-05-26T09:31:48.022Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Iphone",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"price\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 16,
+   "fields": {
+      "action_time": "2018-05-26T09:31:58.871Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 3 New",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 17,
+   "fields": {
+      "action_time": "2018-05-26T09:32:48.881Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 4 New",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"Iphone\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 18,
+   "fields": {
+      "action_time": "2018-05-26T09:44:28.308Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 5 New",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"Iphone\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 19,
+   "fields": {
+      "action_time": "2018-05-26T09:45:43.185Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Iphone",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"price\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 20,
+   "fields": {
+      "action_time": "2018-05-26T09:45:46.420Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 5 New",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"Iphone\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 21,
+   "fields": {
+      "action_time": "2018-05-26T17:11:41.650Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "MacBook Pro",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 22,
+   "fields": {
+      "action_time": "2018-05-26T17:11:55.857Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "Ipod Pro",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 23,
+   "fields": {
+      "action_time": "2018-05-26T17:12:10.726Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Iphone Camera",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 24,
+   "fields": {
+      "action_time": "2018-05-26T17:48:08.019Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "Ipod Pro",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"5\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 25,
+   "fields": {
+      "action_time": "2018-05-26T17:48:22.263Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Iphone Camera",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"6\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 26,
+   "fields": {
+      "action_time": "2018-05-30T18:12:56.908Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "Laptop1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"7\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 27,
+   "fields": {
+      "action_time": "2018-05-30T18:13:24.420Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "Laptop2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"8\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 28,
+   "fields": {
+      "action_time": "2018-05-30T18:13:52.347Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "Laptop3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"9\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 29,
+   "fields": {
+      "action_time": "2018-05-30T18:14:13.167Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "Laptop4",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"10\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 30,
+   "fields": {
+      "action_time": "2018-05-30T18:16:35.414Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "Laptop4",
+      "action_flag": 2,
+      "change_message": "[{\"deleted\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"None\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 31,
+   "fields": {
+      "action_time": "2018-05-30T18:16:48.822Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "Laptop3",
+      "action_flag": 2,
+      "change_message": "[{\"deleted\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"None\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 32,
+   "fields": {
+      "action_time": "2018-05-30T18:16:55.384Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "Laptop2",
+      "action_flag": 2,
+      "change_message": "[{\"deleted\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"None\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 33,
+   "fields": {
+      "action_time": "2018-05-30T18:17:06.947Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "Laptop1",
+      "action_flag": 2,
+      "change_message": "[{\"deleted\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"None\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 34,
+   "fields": {
+      "action_time": "2018-05-31T20:14:00.837Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Phone",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 35,
+   "fields": {
+      "action_time": "2018-05-31T20:14:09.762Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "IPhone",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 36,
+   "fields": {
+      "action_time": "2018-05-31T20:14:19.809Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "Laptop4",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"discount\", \"type\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 37,
+   "fields": {
+      "action_time": "2018-05-31T20:14:30.181Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "Laptop3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"type\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 38,
+   "fields": {
+      "action_time": "2018-05-31T20:14:37.283Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "Laptop2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"type\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 39,
+   "fields": {
+      "action_time": "2018-05-31T20:14:43.774Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "Laptop1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"type\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 40,
+   "fields": {
+      "action_time": "2018-05-31T20:14:51.828Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Iphone Camera",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"type\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 41,
+   "fields": {
+      "action_time": "2018-05-31T20:14:58.863Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "Ipod Pro",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"type\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 42,
+   "fields": {
+      "action_time": "2018-05-31T20:15:06.118Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "MacBook Pro",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"type\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 43,
+   "fields": {
+      "action_time": "2018-05-31T20:15:14.387Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Iphone",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"type\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 44,
+   "fields": {
+      "action_time": "2018-05-31T20:28:36.031Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "Laptop1",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"11\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 45,
+   "fields": {
+      "action_time": "2018-05-31T20:49:38.011Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "Laptop4",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"12\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 46,
+   "fields": {
+      "action_time": "2018-05-31T20:51:08.506Z",
+      "user": 2,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "5",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"is_main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 47,
+   "fields": {
+      "action_time": "2018-05-31T20:51:55.032Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Iphone",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"3\", \"fields\": [\"is_main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 48,
+   "fields": {
+      "action_time": "2018-07-07T16:11:05.686Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "17",
+      "object_repr": "Iphone",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 49,
+   "fields": {
+      "action_time": "2018-07-07T16:11:05.855Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "16",
+      "object_repr": "Iphone",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 50,
+   "fields": {
+      "action_time": "2018-07-07T16:11:05.946Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "15",
+      "object_repr": "Iphone Camera",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 51,
+   "fields": {
+      "action_time": "2018-07-07T16:11:06.027Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "14",
+      "object_repr": "Iphone Camera",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 52,
+   "fields": {
+      "action_time": "2018-07-07T16:11:06.102Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "13",
+      "object_repr": "Iphone",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 53,
+   "fields": {
+      "action_time": "2018-07-07T16:11:06.201Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "12",
+      "object_repr": "Iphone",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 54,
+   "fields": {
+      "action_time": "2018-07-07T16:11:06.316Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "11",
+      "object_repr": "Iphone",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 55,
+   "fields": {
+      "action_time": "2018-07-07T16:11:06.408Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "10",
+      "object_repr": "Iphone",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 56,
+   "fields": {
+      "action_time": "2018-07-07T16:11:06.495Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "9",
+      "object_repr": "Iphone",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 57,
+   "fields": {
+      "action_time": "2018-07-07T16:11:06.571Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "8",
+      "object_repr": "Iphone",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 58,
+   "fields": {
+      "action_time": "2018-07-07T16:11:06.654Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "7",
+      "object_repr": "Iphone",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 59,
+   "fields": {
+      "action_time": "2018-07-07T16:11:06.745Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "6",
+      "object_repr": "Iphone",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 60,
+   "fields": {
+      "action_time": "2018-07-07T16:11:06.879Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "5",
+      "object_repr": "Iphone",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 61,
+   "fields": {
+      "action_time": "2018-07-07T16:11:06.961Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "4",
+      "object_repr": "Iphone",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 62,
+   "fields": {
+      "action_time": "2018-07-07T16:11:07.046Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "3",
+      "object_repr": "Iphone",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 63,
+   "fields": {
+      "action_time": "2018-07-07T16:11:07.130Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "2",
+      "object_repr": "Iphone Camera",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 64,
+   "fields": {
+      "action_time": "2018-07-07T16:11:07.211Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "1",
+      "object_repr": "Iphone Camera",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 65,
+   "fields": {
+      "action_time": "2018-08-08T18:06:14.409Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "31",
+      "object_repr": "Laptop4",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 66,
+   "fields": {
+      "action_time": "2018-08-08T18:06:14.544Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "30",
+      "object_repr": "Iphone",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 67,
+   "fields": {
+      "action_time": "2018-08-08T18:06:14.639Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "29",
+      "object_repr": "Ipod Pro",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 68,
+   "fields": {
+      "action_time": "2018-08-08T18:06:14.728Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "28",
+      "object_repr": "Laptop4",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 69,
+   "fields": {
+      "action_time": "2018-08-08T18:06:14.810Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "27",
+      "object_repr": "Iphone Camera",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 70,
+   "fields": {
+      "action_time": "2018-08-08T18:06:14.902Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "26",
+      "object_repr": "Iphone Camera",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 71,
+   "fields": {
+      "action_time": "2018-08-08T18:06:14.985Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "25",
+      "object_repr": "Iphone Camera",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 72,
+   "fields": {
+      "action_time": "2018-08-08T18:06:15.069Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "24",
+      "object_repr": "Iphone Camera",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 73,
+   "fields": {
+      "action_time": "2018-08-08T18:06:15.182Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "23",
+      "object_repr": "Iphone Camera",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 74,
+   "fields": {
+      "action_time": "2018-08-08T18:06:15.409Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "22",
+      "object_repr": "Iphone Camera",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 75,
+   "fields": {
+      "action_time": "2018-08-08T18:06:15.485Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "21",
+      "object_repr": "Iphone",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 76,
+   "fields": {
+      "action_time": "2018-08-08T18:06:15.552Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "20",
+      "object_repr": "Iphone Camera",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 77,
+   "fields": {
+      "action_time": "2018-08-08T18:06:15.640Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "19",
+      "object_repr": "Laptop1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 78,
+   "fields": {
+      "action_time": "2018-08-08T18:06:15.728Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "18",
+      "object_repr": "Laptop4",
+      "action_flag": 3,
+      "change_message": ""
+   }
+}
+]

@@ -1,0 +1,35 @@
+.title{
+    color: red;
+    text-align: center;
+}
+
+html, body{
+    height: 100%;
+    max-height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    line-height: 50px;
+}
+.top-container{
+    padding-top: 10%;
+}
+.general-container{
+    background: url('img/bg_image.jpg');
+    height: 100%;
+}
+.general-container form label{
+
+    color: white;
+    font-weight: 100;
+}
+.general-container form{
+    margin-top: 20px;
+}
+.general-container input{
+    color: black;
+    font-weight: bold;
+}
