@@ -43,6 +43,10 @@ INSTALLED_APPS = [
     'landing',
     'orders',
     'products',
+    'management_area',
+
+    # external packages
+    'django_summernote',
 ]
 
 MIDDLEWARE = [
@@ -71,6 +75,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
 
                 'orders.context_processors.getting_basket_info',
+                'management_area.context_processors.getting_privacy_policy',
             ],
         },
     },
@@ -137,8 +142,8 @@ MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "static", "media")
 
-
-try:
-    from .settings_prod import *
-except:
-    pass
+#
+# try:
+#     from .settings_prod import *
+# except:
+#     pass

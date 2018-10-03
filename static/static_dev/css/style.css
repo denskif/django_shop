@@ -113,3 +113,7 @@ html, body {
 .form-error{
     color: red;
 }
+
+.modal-backdrop{
+    z-index: -1;
+}
