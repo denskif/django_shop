@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-offset-1">
+                <h3>Заказы</h3>
+                <table class="display" style="width:100%" id="orders_table">
+                    <thead>
+                        <tr>
+                            <td>
+                                Имя
+                            </td>
+                            <td>
+                                Телефон
+                            </td>
+                            <td>
+                                Количество товаров
+                            </td>
+                            <td>
+                                Товары в заказе
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {% for item in orders %}
+                        <tr>
+                            <td>{{ item.customer_name }}</td>
+                            <td>{{ item.customer_phone }}</td>
+                            <td>{{ item.customer_cuantity }}</td>
+                            <td>
+                                {% for product in item.products %}
+                                <li>
+                                    {{ product.product__name }}: {{ product.quantity }} шт. по {{ product.price_per_item }}
+                                = {{ product.total_price }}
+                                </li>
+                                {% endfor %}
+                            </td>
+                        </tr>
+                    {% endfor %}
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+{% endblock content %}
+
+{%  block js_stuff %}
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <script type="type/javascript">
+
+        $(document).ready(function(){
+            $('#orders_table').DataTable(
+                {
+                    "order": [[0, "asc"]],
+                    "pageLength": 10,
+                }
+            );
+        });
+
+    </script>
+{% endblock js_stuff %}

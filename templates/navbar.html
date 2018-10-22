@@ -57,6 +57,15 @@
         </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
+    <div class="text-center">
+        {{ user }}
+        {% if user.is_superuser %}
+            <h5>
+                <a href="{% url 'admin_orders' %}" target="_black">Смотреть все заказы</a>
+            </h5>
+        {% endif %}
+
+    </div>
 
 </body>
 </html>
